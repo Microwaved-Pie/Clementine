@@ -8,14 +8,15 @@ from colorama import colorama_text
 # S3D = Season 3 Decision
 # S4D = Season 4 Decision
 
-S1D1 = 1
-S1D2 = 1
-S2D1 = 1
-S2D2 = 1
-S3D1 = 1
-S3D2 = 1
-S4D1 = 1
-S4D2 = 1
+S1D1 = 0
+S1D2 = 0
+S2D1 = 0
+S2D2 = 0
+S3D1 = 0
+S3D2 = 0
+S4D1 = 0
+S4D2 = 0
+checkpoint = 0
 
 
 while True:
@@ -59,17 +60,94 @@ This is episode 1/4: Where The Flowers Grow""")
             print(" ")
         if D1 == ("1"):
             print("{:Import Choices")
-            S1D1 = input("""In Season 1, did Lee grab christa or omids hand?
+
+
+            print("_________________________________________________________________________")
+            print(" ")
+            while True:
+                if checkpoint == 1:
+                    break
+                if checkpoint == 0:
+                    S1D1 = input("""In Season 1, did Lee grab christa or omids hand?
 1: Omid
-2: Christa""")
+2: Christa
+                
+ 
+{: """)
+                    if S1D1 == 1:
+                        checkpoint = 1
+                        break
+                    if S1D1 == 2:
+                        checkpoint = 1
+                        break
+                    print("ERROR: SOMETHING EITHER THEN 1 OR 2 WAS TYPED. TRY AGAIN.")
+                    
+            checkpoint = 0
+            print("_________________________________________________________________________")
+            print(" ")
             S1D2 = input("""Did you Shoot, or leave Lee?
 1: Shoot
-2: Leave""")
+2: Leave
+ 
+ 
+{: """)
+            print("_________________________________________________________________________")
+            print(" ")
             S2D1 = input("""Did you distract, or run away from the scavangers surronding Christa in Season 2?
 1: Distract
-2: Run Away""")
-            S2D2 = input("What ending did you get in Season 2?")
-            S3D1 = input("Who lived at the end of Season 3?")
-            S3D2 = input("What was characters ending personality in season 3?")
-            S4D1 = input("What did you teach Aj the best?")
-            S4D2 = input("Did Lilly live?")
+2: Run Away
+ 
+ 
+{: """)
+            print("_________________________________________________________________________")
+            print(" ")
+            S2D2 = input("""What ending did you get in Season 2?
+1: Wellington
+2: Kenny
+3: Jane
+4: Alone
+                         
+                         
+{: """)
+            print("_________________________________________________________________________")
+            print(" ")
+            S3D1 = input("""Who lived at the end of Season 3?
+1: Gabe
+2: Kate
+3: Gabe & David
+4: Kate & David
+                         
+                         
+{: """)
+            print("_________________________________________________________________________")
+            print(" ")
+            S3D2 = input(""" Who survived in season 3?
+1: Lingard & Max & Conrad
+2: Lingard & Max
+3: Lingard & Conrad
+4: Max & Conrad
+5: Max
+6: Conrad
+7: Lingard
+8: Nobody
+
+                         
+{: """)
+            print("_________________________________________________________________________")
+            print(" ")
+            S4D1 = input("""What did you teach Aj the best?
+1:
+2:
+3:
+4:
+                         
+                         
+{: """)
+            print("_________________________________________________________________________")
+            print(" ")
+            S4D2 = input("""Did Lilly live?
+1: Yes.
+2: No
+                         
+                         
+{: """)
