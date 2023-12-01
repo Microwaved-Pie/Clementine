@@ -65,12 +65,22 @@ This is episode 1/4: Where The Flowers Grow""")
 
             print("_________________________________________________________________________")
             print(" ")
-            S1D1 = input("""In Season 1, did Lee grab christa or omids hand?
+            while True:
+                S1D1 = input("""In Season 1, did Lee grab christa or omids hand?
 1: Omid
 2: Christa
-                
+            
  
 {: """)
+                # created a range.
+                S1D1 = int(S1D1)
+                if S1D1 == (1) or S1D1 == (2):
+                    print("Correct")
+                    # if matches comes out of the loop.
+                    break
+                    # code continues.
+                else:
+                    print("Invalid Input")
             print("_________________________________________________________________________")
             print(" ")
             S1D2 = input("""Did you Shoot, or leave Lee?
