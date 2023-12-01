@@ -16,8 +16,8 @@ S3D1 = int(0)
 S3D2 = int(0)
 S4D1 = int(0)
 S4D2 = int(0)
-checkpoint = int(0)
 choicesimported = int(0)
+cachoicesimported = int(0)
 
 
 while True:
