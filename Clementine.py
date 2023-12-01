@@ -84,24 +84,52 @@ This is episode 1/4: Where The Flowers Grow""")
                     print("_________________________________________________________________________")
             print("_________________________________________________________________________")
             print(" ")
-            S1D2 = input("""Did you Shoot, or leave Lee?
+            while True:
+                S1D2 = input("""Did you Shoot, or leave Lee?
 1: Shoot
 2: Leave
  
  
 {: """)
+                S1D2 = int(S1D2)
+                if S1D2 == (1) or S1D2 == (2):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+            print("_________________________________________________________________________")
+            print(" ")
  
             print("_________________________________________________________________________")
             print(" ")
-            S2D1 = input("""Did you distract, or run away from the scavangers surronding Christa in Season 2?
+            while True:
+                S2D1 = input("""Did you distract, or run away from the scavangers surronding Christa in Season 2?
 1: Distract
 2: Run Away
  
  
 {: """)
+                S2D1 = int(S2D1)
+                if S2D1 == (1) or S2D1 == (2):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+
             print("_________________________________________________________________________")
             print(" ")
-            S2D2 = input("""What ending did you get in Season 2?
+            print("_________________________________________________________________________")
+            print(" ")
+            while True:
+                S2D2 = input("""What ending did you get in Season 2?
 1: Wellington
 2: Kenny
 3: Jane
@@ -109,9 +137,21 @@ This is episode 1/4: Where The Flowers Grow""")
                          
                          
 {: """)
+                S2D2 = int(S2D2)
+                if S2D2 == (1) or S2D2 == (2) or S2D2 == (3) or S2D2 == (4):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+
             print("_________________________________________________________________________")
             print(" ")
-            S3D1 = input("""Who lived at the end of Season 3?
+            while True:
+                S3D1 = input("""Who lived at the end of Season 3?
 1: Gabe
 2: Kate
 3: Gabe & David
@@ -119,6 +159,17 @@ This is episode 1/4: Where The Flowers Grow""")
                          
                          
 {: """)
+                S3D1 = int(S3D1)
+                if S3D1 == (1) or S3D1 == (2) or S3D1 == (3) or S3D1 == (4):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+
             print("_________________________________________________________________________")
             print(" ")
             S3D2 = input(""" Who survived in season 3?
