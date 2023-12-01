@@ -72,15 +72,16 @@ This is episode 1/4: Where The Flowers Grow""")
             
  
 {: """)
-                # created a range.
                 S1D1 = int(S1D1)
                 if S1D1 == (1) or S1D1 == (2):
+                    print(" ")
                     print("Correct")
-                    # if matches comes out of the loop.
+                    print("_________________________________________________________________________")
                     break
-                    # code continues.
                 else:
+                    print(" ")
                     print("Invalid Input")
+                    print("_________________________________________________________________________")
             print("_________________________________________________________________________")
             print(" ")
             S1D2 = input("""Did you Shoot, or leave Lee?
