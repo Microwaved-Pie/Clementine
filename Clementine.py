@@ -186,17 +186,29 @@ This is episode 1/4: Where The Flowers Grow""")
 {: """)
             print("_________________________________________________________________________")
             print(" ")
-            S4D1 = input("""What did you teach Aj the best?
-1:
-2:
-3:
-4:
+            while True:
+                S4D1 = input("""What did you teach Aj the best?
+1: Family
+2: Survival
+3: Voice
+4: Happiness
                          
                          
 {: """)
+                S3D1 = int(S3D1)
+                if S3D1 == (1) or S3D1 == (2) or S3D1 == (3) or S3D1 == (4):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+
             print("_________________________________________________________________________")
             print(" ")
-            S4D2 = input("""Did Lilly live?
+            S4D2 = input("""Did Lilly live at the end of season 4?
 1: Yes.
 2: No
                          
