@@ -43,7 +43,27 @@ while True:
             print("{:Start")
             print("")
             print("")
-            print("Clementine And AJ are in a abandoned school.")
+            # If Lee was shot
+            if S1D1 == (1):
+                print("Lees Corpse Lays On The Ground")
+                input()
+                print("A bullet in his head")
+                input()
+                print("...")
+                input()
+                print("Suddenly, a young clementine enters the room")
+                input()
+                print("Clementine} Im better then you...")
+                input()
+                print("Clementine} I survived, and you didnt.")
+                input()
+                print("You deserve this fate")
+                input()
+                print("I survived, and you didnt.")
+                input()
+                print("I survived, and you didnt.")
+                
+                
             print("")
             print("")
             print("")
