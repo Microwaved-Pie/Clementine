@@ -2,7 +2,6 @@ from time import sleep
 from colorama import colorama_text
 
 # D = Decision
-# ID = Important Decision
 # S1D = Season 1 Decision
 # S2D = Season 2 Decision
 # S3D = Season 3 Decision
@@ -29,13 +28,17 @@ while True:
         D1 = input("""
 0: Info
 1: Import Choices
-2: 
+2: Credits
 3: Start
                 
 
 {: """)
         print("_________________________________________________________________________")
         print(" ")
+        if D1 == ("2"):
+            print("test")
+            print("_________________________________________________________________________")
+            print(" ")
         if D1  == ("3"):
             print("{:Start")
             print("")
@@ -55,8 +58,15 @@ while True:
         if D1 == ("0"):
             print("{:Info")
             print("""
-Clementine & AJ is a rewrite of the clementine comics. or more or less a rewrite of the events after season 4.
-This is episode 1/4: Where The Flowers Grow""")
+Clementine & AJ
+                  
+Episode 1: Where The Flowers Grow
+                  
+                  
+There is no cloud saving. its reccomended to do each episode in one sitting.
+                  
+                  
+Clem & AJ set off on settling old bussiness.""")
             print("_________________________________________________________________________")
             print(" ")
         if D1 == ("1"):
@@ -242,6 +252,17 @@ This is episode 1/4: Where The Flowers Grow""")
             print("_________________________________________________________________________")
             print(" ")
             print("All Decisions Imported. Generating Unique Code Now...")
+            sleep(1)
+            print("Keep sure to save this code!")
             sleep(4)
             choicesimported = S1D1 + S1D2*10 + S2D1*100 + S2D2*1000 + S3D1*10000 + S3D2*100000 + S4D1*1000000 + S4D2*10000000
+            choicesimported = int(choicesimported)
+            print("_________________________________________________________________________")
+            print(" ")
+            print("Your Past Decisions Code Is: ")
             print(choicesimported)
+            sleep(4)
+            print(" ")
+            print("Directing back to main menu...")
+            print("_________________________________________________________________________")
+            print(" ")
