@@ -172,7 +172,8 @@ This is episode 1/4: Where The Flowers Grow""")
 
             print("_________________________________________________________________________")
             print(" ")
-            S3D2 = input(""" Who survived in season 3?
+            while True:
+                S3D2 = input(""" Who survived in season 3?
 1: Lingard & Max & Conrad
 2: Lingard & Max
 3: Lingard & Conrad
@@ -184,19 +185,8 @@ This is episode 1/4: Where The Flowers Grow""")
 
                          
 {: """)
-            print("_________________________________________________________________________")
-            print(" ")
-            while True:
-                S4D1 = input("""What did you teach Aj the best?
-1: Family
-2: Survival
-3: Voice
-4: Happiness
-                         
-                         
-{: """)
-                S3D1 = int(S3D1)
-                if S3D1 == (1) or S3D1 == (2) or S3D1 == (3) or S3D1 == (4):
+                S3D2 = int(S3D2)
+                if S3D2 == (1) or S3D2 == (2) or S3D2 == (3) or S3D2 == (4) or S3D2 == (5) or S3D2 == (6) or S3D2 == (7) or S3D2 == (8):
                     print(" ")
                     print("Correct")
                     print("_________________________________________________________________________")
@@ -208,9 +198,43 @@ This is episode 1/4: Where The Flowers Grow""")
 
             print("_________________________________________________________________________")
             print(" ")
-            S4D2 = input("""Did Lilly live at the end of season 4?
+            while True:
+                S4D1 = input("""What did you teach Aj the best?
+1: Family
+2: Survival
+3: Voice
+4: Happiness
+                         
+                         
+{: """)
+                S4D1 = int(S4D1)
+                if S4D1 == (1) or S4D1 == (2) or S4D1 == (3) or S4D1 == (4):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+
+            print("_________________________________________________________________________")
+            print(" ")
+            while True:
+                S4D2 = input("""Did Lilly live at the end of season 4?
 1: Yes.
 2: No
                          
                          
 {: """)
+                S4D2 = int(S4D2)
+                if S4D2 == (1) or S4D2 == (2):
+                    print(" ")
+                    print("Correct")
+                    print("_________________________________________________________________________")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+
