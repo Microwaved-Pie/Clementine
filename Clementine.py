@@ -156,11 +156,12 @@ This is episode 1/4: Where The Flowers Grow""")
 2: Kate
 3: Gabe & David
 4: Kate & David
+5: Gabe & Kate
                          
                          
 {: """)
                 S3D1 = int(S3D1)
-                if S3D1 == (1) or S3D1 == (2) or S3D1 == (3) or S3D1 == (4):
+                if S3D1 == (1) or S3D1 == (2) or S3D1 == (3) or S3D1 == (4) or S3D1 == (5):
                     print(" ")
                     print("Correct")
                     print("_________________________________________________________________________")
@@ -238,3 +239,9 @@ This is episode 1/4: Where The Flowers Grow""")
                     print("Invalid Input")
                     print("_________________________________________________________________________")
 
+            print("_________________________________________________________________________")
+            print(" ")
+            print("All Decisions Imported. Generating Unique Code Now...")
+            sleep(4)
+            choicesimported = S1D1 + S1D2*10 + S2D1*100 + S2D2*1000 + S3D1*10000 + S3D2*100000 + S4D1*1000000 + S4D2*10000000
+            print(choicesimported)
