@@ -41,46 +41,77 @@ while True:
             print(" ")
         if D1  == ("3"):
             print("{:Start")
-            print("")
-            print("")
-            # If Lee was shot
-            if S1D1 == (1):
-                print("Lees Corpse Lays On The Ground")
-                input()
-                print("A bullet in his head")
-                input()
-                print("...")
-                input()
-                print("Suddenly, a young clementine enters the room")
-                input()
-                print("Clementine} Im better then you...")
-                input()
-                print("Clementine} I survived, and you didnt.")
-                input()
-                print("You deserve this fate")
-                input()
-                print("I survived, and you didnt.")
-                input()
-                print("I survived, and you didnt.")
+            print("A 21 year old clementine sits on the back of a worn bunk ")
+            input(" ")
+            while True:
+                print("You are going on a trip. You can only have space for one item. What do you grab for AJ?")
+                print("1: Disco Toys")
+                print("2: Coloring Book")
+                print("3: Comic Book")
+                print("4: Dictionary")
+                print(" ")
+                print("_________________________________________________________________________")
+                print(" ")
+                S4D1 = input("{: ")
+                print(" ")
+                print("_________________________________________________________________________")
+                print(" ")
+                S4D1 = int(S4D1)
+                if S4D1 == (1):
+                    print(" ")
+                    print("Your Story Is Changing...")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    print("Clementine: AJ needs something to play with. Hopefully its not too childish for him. ")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    break
+                if S4D1 == (2):
+                    print(" ")
+                    print("Your Story Is Changing...")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    print("Clementine: He'll like this one. Hes come so far as an artist. Just like Tenn... ")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    break
+                if S4D1 == (3):
+                    print(" ")
+                    print("Your Story Is Changing...")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    print("Clementine: AJ always liked the superheroes in this one.")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    break
+                if S4D1 == (4):
+                    print(" ")
+                    print("Your Story Is Changing...")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    print("Its good for him to practice his words. Hope it's not too boring for him...")
+                    print("_________________________________________________________________________")
+                    print(" ")
+                    break
+                else:
+                    print(" ")
+                    print("Invalid Input")
+                    print("_________________________________________________________________________")
+                print("")
+            print("Clementine; Alright. It's finally time to head out")
+
                 
-                
-            print("")
-            print("")
-            print("")
-            print("")
-            print("")
-            print("")
-            print("")
-            print("")
-            print("")
-            print("_________________________________________________________________________")
-            print(" ")
+                    
+                    
+
         if D1 == ("0"):
             print("{:Info")
             print("""
 Clementine & AJ
                   
 Episode 1: Where The Flowers Grow
+                  
+I cant add costum decision for every decision in season 4 unfortuantly. The assumed lore is James Dying, And Luis/Violet surviving and Tenn dying
                   
                   
 There is no cloud saving. its reccomended to do each episode in one sitting.
